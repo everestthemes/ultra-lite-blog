@@ -7,7 +7,7 @@
             <li class="posted_date"><?php viable_blog_posted_on(); ?></li>
             <li class="posted_by"><?php viable_blog_posted_by(); ?></li>
             <li class="posted_in"><?php viable_blog_single_post_categories(); ?></a></li>
-            <li class="posted_read_time"><span> <i class="fa fa-clock-o" aria-hidden="true"></i> <?php read_time() ?></span></li>
+            <li class="posted_read_time"><span> <i class="fa fa-clock-o" aria-hidden="true"></i> <?php ultra_lite_blog_read_time() ?></span></li>
         </ul><!-- .post_meta -->
     </div><!-- .meta -->
     <?php if( has_post_thumbnail() ) : ?>
@@ -20,7 +20,7 @@
         the_content( sprintf(
             wp_kses(
                 /* translators: %s: Name of current post. Only visible to screen readers */
-                __( 'Continue reading<span class="screen-reader-text"> "%s"</span>', 'viable-blog' ),
+                __( 'Continue reading<span class="screen-reader-text"> "%s"</span>', 'ultra-lite-blog' ),
                 array(
                     'span' => array(
                         'class' => array(),
@@ -31,7 +31,7 @@
         ) );
 
         wp_link_pages( array(
-            'before' => '<div class="page-links">' . esc_html__( 'Pages:', 'viable-blog' ),
+            'before' => '<div class="page-links">' . esc_html__( 'Pages:', 'ultra-lite-blog' ),
             'after'  => '</div>',
         ) );
         ?>

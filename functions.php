@@ -35,7 +35,7 @@ if ( ! function_exists( 'ultra_lite_blog_enqueue_styles' ) ) {
 
 		wp_enqueue_style( 'ultra-lite-blog-child-main', get_stylesheet_directory_uri() . '/assets/dist/css/main.css' );
         
-        wp_enqueue_style( 'everest-news-child-lite-fonts', ultra_lite_blog_fonts_url() );
+        wp_enqueue_style( 'ultra-lite-blog-child-fonts', ultra_lite_blog_fonts_url() );
         
         wp_enqueue_script( 'ultra-lite-blog-child-main', get_stylesheet_directory_uri() . '/assets/dist/js/bundle.min.js', array( 'jquery' ), '1.0.0', true );
 		
@@ -95,7 +95,7 @@ if( !function_exists( 'ultra_lite_blog_header_menu_action' ) ) {
 }
 add_action( 'ultra_lite_blog_header_menu', 'ultra_lite_blog_header_menu_action', 1 );
 
-function read_time() {
+function ultra_lite_blog_read_time() {
     
     $post_id = get_the_ID();
     $post_object = get_post( $post_id );
@@ -106,11 +106,12 @@ function read_time() {
     $total_time = round( ($word_count)/($per_min_words) );
     
     if( $total_time > 1 ) {
-        $time_unit = ' minutes';
+        $time_unit = 'minutes';
     } else {
-        $time_unit = ' minute';
+        $time_unit = 'minute';
     }
-    echo esc_html__( 'Read Time: ' . $total_time . $time_unit , 'ultra-lite-blog' );
+    /* translators: 1: Total Time 2: Time Unit */
+    printf( esc_html__( 'Read Time: %1$s %2$s', 'ultra-lite-blog' ), $total_time, $time_unit );
     
 }
 
