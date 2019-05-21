@@ -22,6 +22,6 @@
 
 <body <?php body_class(); ?>>
 <div class="page_wrap">
-	<a class="skip-link screen-reader-text" href="#content"><?php esc_html_e( 'Skip to content', 'viable-blog' ); ?></a>
+	<a class="skip-link screen-reader-text" href="#content"><?php esc_html_e( 'Skip to content', 'ultra-lite-blog' ); ?></a>
 
 	<?php ultra_lite_blog_header_template();
