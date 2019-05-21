@@ -24,8 +24,8 @@ Viable Blog is distributed under the terms of the GNU GPL
 
 
 == Screenshots ==
-
-Logo Image & Advertisement Image, self created GPLv2
+https://pxhere.com/en/photo/1434369
+Logo Image & self created GPLv2
 
 
 == Installation ==
@@ -37,7 +37,7 @@ Logo Image & Advertisement Image, self created GPLv2
 
 == Changelog ==  
 
-= 1.0.0 - May 16, 2019 =
+= 1.0.0 - May 19, 2019 =
 
 * Initial release
 
