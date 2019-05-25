@@ -41,6 +41,10 @@ msgstr ""
 msgid "On enabling this option, banner of parent theme will not be shown."
 msgstr ""
 
+#: header.php:25
+msgid "Skip to content"
+msgstr ""
+
 #. translators: If there are characters in your language that are not supported by Merriweather, translate this to 'off'. Do not translate into your own language.
 #: inc/functions/extras.php:28
 msgctxt "Poppins font: on or off"
