@@ -12,7 +12,7 @@ License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
 == Description ==
 
-Description: Ultra Lite Blog is 100% responsive & modern, beautiful and clean WordPress child blog theme designed and developed specially for personal blogging. Ultra Lite Blog is developed following WordPress standards. It is cross browser compatable & looks beautiful in any media device. If you are looking for demo content & support kindly do log-on to https://everestthemes.com/
+Description: Ultra Lite Blog is a child theme of Viable Blog Free WordPress Theme. This theme features a clean, elegant and modern layout along with a fully responsive design for creating personal blog. You can share your ideas on various topics such as lifestyle, fashion, food, travel, and many more by creating a blog with this theme. It is a Speed & SEO optimized theme which helps your website perform well in search engine ranking. Furthermore, it is cross browser compatible and looks beautiful on any device and screen sizes.
 
 
 == License ==
@@ -38,7 +38,7 @@ Logo Image, self created GPLv2
 
 == Changelog ==  
 
-= 1.0.0 - May 19, 2019 =
+= 1.0.0 - May 25, 2019 =
 
 * Initial release
 
